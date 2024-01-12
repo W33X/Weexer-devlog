@@ -1,3 +1,11 @@
 h1 {
-  background0-color: red;
+  outline-style: groved;
+  outline-color: darkgray;
+  text-align: center;
+  background-color: rgb(60, 60, 60);
+  text-color: white;
+  text-shadow: 0px 0px 4px black;
+}
+body {
+  background-color: rgb(60, 60, 60);
 }
