@@ -1,8 +1,5 @@
-p {
-  font-family: "Lucida console", Monospace;
-  font: "Lucida console"
-}
 h1 {
+  font-family: "Times New Roman", Times, serif;
   outline-style: grooved;
   outline-color: red;
   text-align: center;
