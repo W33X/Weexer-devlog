@@ -1,10 +1,14 @@
+p {
+  font-family: "Lucida console", Monospace;
+  font: "Lucida console"
+}
 h1 {
-  outline-style: groved;
-  outline-color: darkgray;
+  outline-style: grooved;
+  outline-color: red;
   text-align: center;
   background-color: rgb(60, 60, 60);
-  color: white;
-  text-shadow: 0px 0px 4px black;
+  color: rgb(255, 0, 0);
+  text-shadow: 0px 0px 4px rgb(155, 0, 0);
 }
 body {
   text-align: center;
