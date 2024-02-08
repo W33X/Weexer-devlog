@@ -7,57 +7,9 @@
   <h1>WeexerTools</h1>
   <body>
     <script>
-      //Initial variables
-      function TimeCalc(){
-        //Variables
-        var seconds = parseInt(prompt("Please enter value in seconds"), 10);
-        var minutes = 0;
-        var hours = 0;
-        var days = 0;
-        var tempMinutes = 0;
-        var tempHours = 0;
-        var tempDays = 0;
-
-        //Initial display message
-        document.write(seconds + " seconds is equal to: </br> </br>");
-        
-        //Convert seconds to minutes
-        tempMinutes = seconds;
-        while (tempMinutes >= 0){
-          tempMinutes -= 60;
-          if (tempMinutes >= 0){
-            minutes++;
-          }
-        }
-        seconds -= (minutes * 60);
-        
-        //Convert minutes to hours
-        tempHours = minutes;
-        while (tempHours >= 0){
-          tempHours -= 60;
-          if (tempHours >= 0){
-            hours++;
-          }
-        }
-        minutes -= (hours * 60);
-        
-        //Convert hours to days
-        tempDays = hours;
-        while (tempDays >= 0){
-          tempDays -= 24;
-          if (tempDays >= 0){
-            days++;
-          }
-        }
-        hours -= (days * 24);
-        
-        //Final display message
-        document.write(days + " days </br>");
-        document.write(hours + " hours </br>");
-        document.write(minutes + " minutes </br>");
-        document.write(seconds + " seconds </br>");
+      for (x=1, x<100, x++) {
+        document.write("Gabriel told be he loves Gabriela (also he likes catgirls)");
       }
-      TimeCalc();
     </script>
   </body>
 </html>
